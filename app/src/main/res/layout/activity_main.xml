@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".google">
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="150dp"
+        app:lottie_url="https://assets6.lottiefiles.com/packages/lf20_eaur6fpd.json"
+        app:lottie_autoPlay="true"
+        android:padding="0dp"
+        app:lottie_loop="true"/>
+
+
+    <TextView
+        android:layout_below="@+id/animationView"
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+
+        android:textAlignment="center"
+
+
+        android:text="CONNECTING PEOPLES"
+
+        android:textSize="20dp"
+        android:textColor="@color/black"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/continuebtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/button"
+        android:padding="12dp"
+        android:text="Let's Continue!"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
